@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+}
+
+.card-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    width: 20rem;
+    height: 30rem;
+}
+
+.circle {
+    background-color: green;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.form-container {
+    width: 55%;
+}
+
+.remember-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
